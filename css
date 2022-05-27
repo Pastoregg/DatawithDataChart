@@ -1,0 +1,50 @@
+.title {
+  
+  font-size: 12px;
+  font-family: sans-serif;
+  color: steelblue;
+}
+
+
+.infobox {
+        position: absolute;
+        left: 100px;
+        width: 200px;
+        padding: 10px;
+        background-color: rgba(200,200,200,.75);
+        border-radius: 5px;
+      
+}
+ 
+p {
+        margin: 0;
+}
+
+.chart .mouseover {
+   fill: lightsteelblue;
+ }
+
+
+
+.chart rect, .chart .mouseoff {
+  fill: steelblue;
+}
+
+
+
+.chart text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
